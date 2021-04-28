@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-28T00:38:52 PDT" name="Adhoc" finished-at="2021-04-28T00:39:19 PDT" duration-ms="26945">
+    <groups>
+      <group name="Regression">
+        <method signature="FabookSignThroughPropertiesFile.Regression()[pri:0, instance:AmazonRgressionSteps.FabookSignThroughPropertiesFile@5223e5ee]" name="Regression" class="AmazonRgressionSteps.FabookSignThroughPropertiesFile"/>
+      </group> <!-- Regression -->
+      <group name="Adhock">
+        <method signature="FabookSignThroughPropertiesFile.Adhock()[pri:0, instance:AmazonRgressionSteps.FabookSignThroughPropertiesFile@5223e5ee]" name="Adhock" class="AmazonRgressionSteps.FabookSignThroughPropertiesFile"/>
+      </group> <!-- Adhock -->
+    </groups>
+    <test started-at="2021-04-28T00:38:52 PDT" name="functionsOfChrome" finished-at="2021-04-28T00:39:19 PDT" duration-ms="26945">
+      <class name="AmazonRgressionSteps.FabookSignThroughPropertiesFile">
+        <test-method is-config="true" signature="browsers(java.lang.String,java.lang.String)[pri:0, instance:AmazonRgressionSteps.FabookSignThroughPropertiesFile@5223e5ee]" started-at="2021-04-28T00:38:52 PDT" name="browsers" finished-at="2021-04-28T00:38:57 PDT" duration-ms="4610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https:www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsers -->
+        <test-method signature="Adhock()[pri:0, instance:AmazonRgressionSteps.FabookSignThroughPropertiesFile@5223e5ee]" started-at="2021-04-28T00:38:57 PDT" name="Adhock" finished-at="2021-04-28T00:38:57 PDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adhock -->
+        <test-method signature="Regression()[pri:0, instance:AmazonRgressionSteps.FabookSignThroughPropertiesFile@5223e5ee]" started-at="2021-04-28T00:38:57 PDT" name="Regression" finished-at="2021-04-28T00:38:57 PDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Regression -->
+        <test-method signature="f()[pri:0, instance:AmazonRgressionSteps.FabookSignThroughPropertiesFile@5223e5ee]" started-at="2021-04-28T00:38:57 PDT" name="f" finished-at="2021-04-28T00:39:12 PDT" duration-ms="14979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:AmazonRgressionSteps.FabookSignThroughPropertiesFile@5223e5ee]" started-at="2021-04-28T00:39:13 PDT" name="afterClass" finished-at="2021-04-28T00:39:19 PDT" duration-ms="6001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- AmazonRgressionSteps.FabookSignThroughPropertiesFile -->
+    </test> <!-- functionsOfChrome -->
+  </suite> <!-- Adhoc -->
+</testng-results>
